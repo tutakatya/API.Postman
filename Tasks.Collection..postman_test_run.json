@@ -1,0 +1,376 @@
+{
+	"id": "bd79c3fa-e7f9-44c4-abb9-a5b6c9f566fe",
+	"name": "Tasks.Collection.",
+	"timestamp": "2022-09-28T11:30:52.713Z",
+	"collection_id": "23523117-d423f559-f68c-489f-b307-e293e8c9dfbb",
+	"folder_id": 0,
+	"environment_id": "0",
+	"totalPass": 18,
+	"totalFail": 0,
+	"results": [
+		{
+			"id": "b903f781-0002-4299-94fb-3e36e900ff93",
+			"name": "Authorization C1",
+			"url": "https://radio-shop.megaplan.by/api/v3/auth/access_token",
+			"time": 221,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				221
+			],
+			"allTests": [
+				{
+					"Status code is 200": true
+				}
+			]
+		},
+		{
+			"id": "e33a0ece-f509-4646-a359-01a7ab47594c",
+			"name": "Add a task.Resp C2",
+			"url": "https://radio-shop.megaplan.by/api/v3/task",
+			"time": 808,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true,
+				"Название задачи": true,
+				"Ответственный сотрудник": true,
+				"Статус задачи": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Название задачи": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Ответственный сотрудник": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Статус задачи": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				808
+			],
+			"allTests": [
+				{
+					"Status code is 200": true,
+					"Название задачи": true,
+					"Ответственный сотрудник": true,
+					"Статус задачи": true
+				}
+			]
+		},
+		{
+			"id": "9103d60c-6721-4d9d-aae0-bea5137d5e2c",
+			"name": "Description of the task",
+			"url": "https://radio-shop.megaplan.by/api/v3/task/1007759",
+			"time": 474,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true,
+				"Описание задачи": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Описание задачи": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				474
+			],
+			"allTests": [
+				{
+					"Status code is 200": true,
+					"Описание задачи": true
+				}
+			]
+		},
+		{
+			"id": "f894c674-80ab-43a6-ad70-04c195160a79",
+			"name": "Authorization C2",
+			"url": "https://radio-shop.megaplan.by/api/v3/auth/access_token",
+			"time": 98,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				98
+			],
+			"allTests": [
+				{
+					"Status code is 200": true
+				}
+			]
+		},
+		{
+			"id": "f1e8635e-a8e6-45ea-bd1e-c252632c3c1a",
+			"name": "Accept the task",
+			"url": "https://radio-shop.megaplan.by/api/v3/task/1007759/doAction",
+			"time": 2454,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true,
+				"Статус задачи": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Статус задачи": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				2454
+			],
+			"allTests": [
+				{
+					"Status code is 200": true,
+					"Статус задачи": true
+				}
+			]
+		},
+		{
+			"id": "0689d39e-994b-4a6b-9d89-e3a747b0a57b",
+			"name": "Complete the task",
+			"url": "https://radio-shop.megaplan.by/api/v3/task/1007759/doAction",
+			"time": 1400,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true,
+				"Статус задачи": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Статус задачи": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				1400
+			],
+			"allTests": [
+				{
+					"Status code is 200": true,
+					"Статус задачи": true
+				}
+			]
+		},
+		{
+			"id": "80da8b01-9d64-4011-bb2b-cbc9ebc1109f",
+			"name": "Write a comment",
+			"url": "https://radio-shop.megaplan.by/api/v3/task/1007759/comments",
+			"time": 1577,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true,
+				"Комментарий": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Комментарий": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				1577
+			],
+			"allTests": [
+				{
+					"Status code is 200": true,
+					"Комментарий": true
+				}
+			]
+		},
+		{
+			"id": "fab000c9-8581-4d1c-a725-b7a454a7c54f",
+			"name": "Authorization C1",
+			"url": "https://radio-shop.megaplan.by/SdfPerm/User/login.json?loginKey=6332efb2b5fa7&loginStr=a1c1db1bc56535aee6e0e988ffb91e11&trySubmit=&twoStepCode=&login=Exploratory1%401.1&captcha=&save=1",
+			"time": 162,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				162
+			],
+			"allTests": [
+				{
+					"Status code is 200": true
+				}
+			]
+		},
+		{
+			"id": "e11b4ebf-210a-4615-a62c-da6b2997e43f",
+			"name": "Accept the task",
+			"url": "https://radio-shop.megaplan.by/api/v3/task/1007759/doAction",
+			"time": 748,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true,
+				"Статус задачи": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				},
+				"Статус задачи": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				748
+			],
+			"allTests": [
+				{
+					"Status code is 200": true,
+					"Статус задачи": true
+				}
+			]
+		},
+		{
+			"id": "a8755a26-36da-4871-a379-3e13c39863ef",
+			"name": "Delete the task",
+			"url": "https://radio-shop.megaplan.by/api/v3/task/1007759",
+			"time": 1687,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Status code is 200": true
+			},
+			"testPassFailCounts": {
+				"Status code is 200": {
+					"pass": 1,
+					"fail": 0
+				}
+			},
+			"times": [
+				1687
+			],
+			"allTests": [
+				{
+					"Status code is 200": true
+				}
+			]
+		}
+	],
+	"count": 1,
+	"totalTime": 9629,
+	"collection": {
+		"requests": [
+			{
+				"id": "b903f781-0002-4299-94fb-3e36e900ff93",
+				"method": "POST"
+			},
+			{
+				"id": "e33a0ece-f509-4646-a359-01a7ab47594c",
+				"method": "POST"
+			},
+			{
+				"id": "9103d60c-6721-4d9d-aae0-bea5137d5e2c",
+				"method": "POST"
+			},
+			{
+				"id": "f894c674-80ab-43a6-ad70-04c195160a79",
+				"method": "POST"
+			},
+			{
+				"id": "f1e8635e-a8e6-45ea-bd1e-c252632c3c1a",
+				"method": "POST"
+			},
+			{
+				"id": "0689d39e-994b-4a6b-9d89-e3a747b0a57b",
+				"method": "POST"
+			},
+			{
+				"id": "80da8b01-9d64-4011-bb2b-cbc9ebc1109f",
+				"method": "POST"
+			},
+			{
+				"id": "fab000c9-8581-4d1c-a725-b7a454a7c54f",
+				"method": "GET"
+			},
+			{
+				"id": "e11b4ebf-210a-4615-a62c-da6b2997e43f",
+				"method": "POST"
+			},
+			{
+				"id": "a8755a26-36da-4871-a379-3e13c39863ef",
+				"method": "DELETE"
+			}
+		]
+	}
+}
